@@ -4,6 +4,8 @@ The objective is to print the contents of `ut/translator/test_files/target.ts` f
 
 Extra points for leaning towards compile time as much as possible, rather than runtime.
 
+Unit tests done with Catch2 for header-only convinience.
+
 ## Build & Run
 
 `mkdir build && cd build && cmake .. && make && ./../bin/ut && ./../bin/challenge`
