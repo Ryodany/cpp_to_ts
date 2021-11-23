@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "copy_code",
+            "type": "shell",
+            "problemMatcher": "$msCompile",
+            "command": "rsync -av --exclude *build/ --delete-excluded /code/modern-cpp-code-challenge /mnt/c/Users/Ryo/Documents/MEGA/\\[code\\]"
+        }
+    ]
+}
